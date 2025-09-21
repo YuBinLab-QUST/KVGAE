@@ -3,7 +3,7 @@
 ##Introduction
 This paper proposes an unsupervised learning method—KVGAE. Firstly, we construct a multimodal weight matrix by integrating image features, gene expression, and spatial location information, and perform weighted aggregation between each spatial spot and its local neighborhood to obtain a more stable expression representation. Secondly, we combine a multi-head attention mechanism with a Fourier basis-driven Kolmogorov-Arnold Network to jointly model long-range dependencies and periodic patterns, while enhancing the interpretability of the model. Finally, across eight datasets from four sequencing platforms, KVGAE demonstrates superior accuracy in spatial domain identification.
 
-##Installation
+## Installation
 ```bash
 python == 3.9
 torch == 1.13.0
@@ -12,7 +12,7 @@ anndata == 0.8.0
 numpy == 1.22.3
 ```
 
-##Dataset
+## Dataset
 ```bash
 (1) Human DLPFCs within the spatialLIBD at http://research.libd.org/spatialLIBD/
 (2) Human breast cancer dataset at https://cf.10xgenomics.com/samples/spatial-exp/1.1.0/V1_Breast_Cancer_Block_A_Section_1/V1_Breast_Cancer_Block_A_Section_1_web_summary.html
@@ -22,7 +22,7 @@ numpy == 1.22.3
 (6) Mouse visual cortex data generated using the STARmap platform is available at https://singlecell.broadinstitute.org/single_cell/study/SCP815
 ```
 
-##Run
+## Run
 ```bash
 from RUN import RunAnalysis
 import scanpy as sc
