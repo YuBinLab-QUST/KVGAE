@@ -1,6 +1,6 @@
 # KVGAE: revealing heterogeneity in spatial transcriptomics through capturing structured long range interactions
 
-##Introduction
+Introduction
 This paper proposes an unsupervised learning method—KVGAE. Firstly, we construct a multimodal weight matrix by integrating image features, gene expression, and spatial location information, and perform weighted aggregation between each spatial spot and its local neighborhood to obtain a more stable expression representation. Secondly, we combine a multi-head attention mechanism with a Fourier basis-driven Kolmogorov-Arnold Network to jointly model long-range dependencies and periodic patterns, while enhancing the interpretability of the model. Finally, across eight datasets from four sequencing platforms, KVGAE demonstrates superior accuracy in spatial domain identification.
 
 ## Installation
